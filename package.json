@@ -1,0 +1,16 @@
+{
+  "name": "lavicord",
+  "packageManager": "yarn@3.5.1",
+  "workspaces": [
+    "pkgs/injector",
+    "pkgs/api",
+    "pkgs/plugins",
+    "pkgs/loader"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "discord-types": "^1.3.3",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
+  }
+}
